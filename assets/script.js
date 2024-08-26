@@ -1,4 +1,5 @@
 const container = document.querySelector("#container");
+const clearBtn = document.querySelector('#clear')
 
 /* creating grid format for the sketch area */
 function createGrid(size) {
@@ -34,8 +35,26 @@ function createGrid(size) {
 
 function addColorHover(getGrid) {
   getGrid.addEventListener('mouseover', () => {
-    getGrid.style.backgroundColor = 'black';
+    getGrid.style.backgroundColor = getRandomRGB();
   })
 }
 
+function getRandomRGB() {
+  const r = Math.floor(Math.random() * 256);
+  const g = Math.floor(Math.random() * 256);
+  const b = Math.floor(Math.random() * 256);
+
+  return `rgb(${r}, ${g}, ${b})`
+}
+
+/* initial grid */
 createGrid(16)
+
+/* clear grid */
+clearBtn.addEventListener('click', () => {
+  const grids = document.querySelectorAll(".grid");
+
+  grids.forEach((grid) => {
+    grid.style.backgroundColor = 'transparent';
+  })
+})
