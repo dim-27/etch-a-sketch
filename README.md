@@ -2,7 +2,7 @@
 
 ## Summary
 ---
-A simple drawing game as a learning tool for the odin project
+A simple drawing tool for you!
 
 ## Tech Stack
 ---
