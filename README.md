@@ -10,4 +10,7 @@ A simple drawing tool for you!
 - CSS
 - Javascript
 
+## Live Preview
+---
+**[Calculator Website](https://dim-27.github.io/etch-a-sketch/)**
 
