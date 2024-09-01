@@ -12,5 +12,5 @@ A simple drawing tool for you!
 
 ## Live Preview
 ---
-**[Calculator Website](https://dim-27.github.io/etch-a-sketch/)**
+**[Etch-a-Sketch Website](https://dim-27.github.io/etch-a-sketch/)**
 
